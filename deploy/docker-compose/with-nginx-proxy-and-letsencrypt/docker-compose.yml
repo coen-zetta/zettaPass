@@ -32,7 +32,7 @@ services:
       - "11211"
 
   yopass:
-    image: coenzetta/ZETTApass
+    image: coenzetta/zettapass:cc9f296bb5b07bd91eb76f75a686fd6eebf40a66
     restart: always
     environment:
       - VIRTUAL_HOST=test.zettaplan.com
